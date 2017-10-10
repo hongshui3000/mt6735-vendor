@@ -1,0 +1,12 @@
+WHAT IT DOES?
+=============
+BlueAngel is a Bluetooth total software solution consists of Bluetooth Profile & Protocol implementation providing a message-based interface over POSIX socket transport medium.
+
+HOW IT WAS BUILT?
+==================
+With MTK_BT_SUPPORT enabled.
+
+HOW TO USE IT?
+==============
+Via service mtkbt by using socket.
+
