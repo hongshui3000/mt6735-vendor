@@ -1,0 +1,9 @@
+LOCAL_PATH := $(call my-dir)
+include $(CLEAR_VARS)
+LOCAL_MODULE := libgd
+LOCAL_SRC_FILES_64 := libgd.a
+LOCAL_SRC_FILES_32 := arm/libgd.a
+LOCAL_MULTILIB := both
+LOCAL_MODULE_CLASS := STATIC_LIBRARIES
+LOCAL_MODULE_SUFFIX := .a
+include $(BUILD_PREBUILT)
